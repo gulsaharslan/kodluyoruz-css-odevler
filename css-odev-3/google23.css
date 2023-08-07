@@ -1,0 +1,174 @@
+.header {
+    font-family: Roboto, arial, sans-serif;
+    font-feature-settings: normal;
+    font-size: 13px;
+    color: black;
+    font-kerning: auto;
+    font-style: normal;
+    font-stretch: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+
+
+
+}
+
+#profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+
+
+}
+
+#apps-button {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+li {
+    text-decoration: none;
+    color: black;
+    line-height: 24px;
+    font-family: arial, sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+
+
+}
+
+a:hover{
+
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    margin-top: 1%;
+    text-align: center;
+
+}
+
+.search-bar {
+
+    margin: 0 auto;
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+}
+
+
+.search-bar:hover {
+
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+
+
+.search-bar:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+
+
+.searchbar {
+
+    height: 45px;
+    border: none;
+    width: 500px;
+    font-size: 16px;
+    outline: none;
+    line-height: 22px;
+    margin-left: 20px;
+
+}
+
+.voice {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.search-img {
+    height: 25px;
+    position: relative;
+
+
+}
+
+
+
+.button {
+
+    margin: 30px 5px 0 5px;
+    color: #F2F2F2;
+}
+
+.button-item {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.button-area {
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #F2F2F2;
+    font-size: 14px;
+    bottom: 0;
+}
+
+
+#footer-left {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(112, 117, 122);
+    padding: 0 20px;
+    
+   
+}
+
+#footer-right {
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    color: #70757a;
+    padding: 0 20px;
+
+}
